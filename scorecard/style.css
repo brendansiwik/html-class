@@ -1,0 +1,15 @@
+.score_box {
+    width: 25px;
+    height: 25px;
+}
+td.score_box:nth-child(even) {
+    background-color: #d4d4d4;
+}
+#total{
+    width: 40px;
+    height: 25px;
+}
+#name{
+    width: 150px;
+    height: 25px;
+}
