@@ -1,0 +1,71 @@
+#penguins{
+    background-image: url('pictures/imitation/penguins.jpg');
+    width: 450px;
+    height: 300px;
+    border: thin solid black;  
+    border-radius: 225px 225px 225px 225px / 150px 150px 150px 150px;
+    filter: sepia(50%)
+}
+#football-picture{
+    background-image: url('pictures/imitation/football_field.jpg');
+    width: 500px;
+    height: 230px;
+}
+#football{
+    width: 500px;
+    height: 230px;
+    border: solid 55px #FFFFFF;
+    border-image: url('pictures/imitation/tic-tac-toe.png') 55 round;
+}
+#dino{
+    filter: hue-rotate(90deg);
+}
+.dino{
+    filter: drop-shadow(15px 0px 5px #000000);
+}
+#bird{
+    background:linear-gradient(120deg, #9A9AFF, white);
+    width: 560px;
+    height: 396px;
+}
+.bird{
+    box-shadow: 0px 20px 20px #888888;
+}
+#butterfly{
+    margin-top: 50px;
+    background-image: url('pictures/imitation/butterfly.jpg');
+    width: 400px;
+    height: 243px;
+    border-radius: 120px 0px 120px 0px;
+    filter: invert(100%);
+}
+#presenting{
+    position: relative;
+    width: 400px;
+    height: 352px;
+    margin-top: 50px;
+}
+#presenting-background{
+    background-image: url('pictures/imitation/theater_stage.jpg');
+    width: 400px;
+    height: 352px;
+    filter: blur(4px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+#presenting-text{
+    width: 400px;
+    height: 352px;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 50px;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px 2px #000000;
+}
